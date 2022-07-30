@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky-nav {
+    position: fixed;
+    top: 1%;
+    left: 0;
+    width: 100%;
+}
+
+.first-option {
+    background-color: #f8f9fa;
+    padding: 15px;
+    margin: 0px 50px 10px 50px;
+    position: sticky;
+    top: 0;
+}
+
+.btn1 {
+    padding: 10px;
+    width: 15%;
+    border: 1px solid black;
+    margin-left: 68%;
+
+}
+
+.btn2 {
+    padding: 10px;
+    width: 15%;
+    border: 1px solid black;
+    margin-left: 1%;
+
+}
+
+.currency {
+    margin-left: 3.5%;
+    margin-top: 6%;
+}
+
+.second-option {
+    padding: 25px;
+    margin: 10px 50px 10px 50px;
+    background-color: #f8f9fa;
+}
+
+.amount {
+    margin-left: 0px;
+}
+
+.amount-input {
+    margin: 5px 5px 5px 0px;
+    padding: 10px;
+    width: 25%;
+    border: 1px solid black;
+}
+
+.second-input {
+    padding: 10px;
+    margin-top: 0%;
+    margin-left: 0%;
+    border: 1px solid black;
+    width: 25%;
+}
+
+.from {
+    margin-left: 40.5%;
+    margin-top: -65px;
+}
+
+.select1 {
+    margin-left: 40%;
+    padding: 5px;
+    width: 22%;
+    margin-top: -4px;
+
+}
+
+.to {
+    margin-left: 75.5%;
+    margin-top: -55px;
+}
+
+.select2 {
+    margin-left: 75%;
+    padding: 5px;
+    width: 22%;
+    margin-top: -4px;
+}
+
+.convert {
+    margin-top: 5%;
+    margin-left: 40.5%;
+    padding: 8px;
+    margin-top: 3%;
+    width: 56.2%;
+}
+
+.input-3 {
+    margin-left: 15.5%;
+    margin-right: 2%;
+    margin-top: 1%;
+    padding: 25px;
+    width: 28%;
+    border: 1px solid black;
+}
+
+.more-details {
+    padding: 8px;
+    width: 26%;
+}
+
+
+@media screen and (max-width: 600px) {
+    .sticky-nav {
+        width: 100%;
+    }
+
+    .arrow-9 {
+        width: 100%;
+    }
+
+    .first-option {
+        margin-left: 10px;
+        width: 92%;
+    }
+
+    .currency {
+        margin-left: 10px;
+        margin-top: 45%;
+    }
+
+    .btn2 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .btn1 {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+
+    .second-option {
+        padding: 15px;
+        width: 92%;
+        margin-left: 11px;
+    }
+
+    .amount-input {
+        width: 100%;
+        /* display: block; */
+        margin-bottom: 25px;
+        margin-left: 0px;
+        margin-top: 5px;
+        padding: 5px
+    }
+
+    .amount {
+        margin-left: 0px;
+    }
+
+    .second-input {
+        width: 100%;
+        /* display: block; */
+        margin-bottom: 25px;
+        margin-left: 0px;
+        margin-top: 5px;
+        padding: 5px
+    }
+
+    .from {
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+
+    .select1 {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .to {
+        margin: 0px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+
+    .select2 {
+        width: 100%;
+        margin-left: -5px;
+    }
+
+    .convert {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .input-3 {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .more-details {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 3%;
+    }
+}
+
+
+
+.column {
+    float: left;
+    width: 29.6%;
+    padding: 8px 10px;
+    margin-left: 2.8%;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.arrow-9 {
+    width: 80px;
+    height: 25px;
+    /* display: flex; */
+    margin-left: 65.2%;
+    margin-right: 60%;
+    margin-top: -34px;
+    background: linear-gradient(currentColor 0 0) center/calc(100% - 30px) 10px, conic-gradient(from -136deg at right, #0000, currentColor 1deg 90deg, #0000 91deg) right/15px 100%, conic-gradient(from 44deg at left, #0000, currentColor 1deg 90deg, #0000 91deg) left /15px 100%;
+    background-repeat: no-repeat;
+
+}
